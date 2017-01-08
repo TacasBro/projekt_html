@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="projekt_kusy.jnlp">
+  <information>
+    <title>projekt_kusy</title>
+    <vendor>Kusy</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\postgresql-9.2-1002.jdbc4.jar" size="571894" download="eager" />
+    <jar href="lib\sqlite-jdbc-3.7.2.jar" size="3201133" download="eager" />
+    <jar href="projekt_kusy.jar" size="3191014" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="projekt_kusy" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="projekt_kusy.Projekt_kusy"  name="projekt_kusy" />
+  <update check="always"/>
+</jnlp>
